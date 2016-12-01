@@ -2,7 +2,7 @@
   "name": "json-rest-c",
   "version": "0.0.1",
   "description": "A self-use RESTful client only accept json.",
-  "main": "./lib/json-rest-c.js",
+  "main": "./lib/json-rest-c",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
