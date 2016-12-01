@@ -15,5 +15,8 @@
     "client"
   ],
   "author": "Collatz",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.3.3"
+  }
 }
