@@ -11,8 +11,8 @@
     "url": "https://github.com/collatzc/json-rest-c.git"
   },
   "keywords": [
-    "rest client for json",
-    "restful client"
+    "restful",
+    "client"
   ],
   "author": "Collatz",
   "license": "MIT"
