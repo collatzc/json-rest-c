@@ -12,6 +12,9 @@ config = {
 		port: '3000',
 		headers: {
 			'x-auth-method': 'secret'
+		},
+		agent: {
+			keepAlive: true
 		}
 	}
 }
