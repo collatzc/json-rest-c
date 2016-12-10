@@ -4,7 +4,7 @@
   "description": "A self-use RESTful client only accept json.",
   "main": "./lib/json-rest-c",
   "scripts": {
-    "test": "CONF=dev mocha"
+    "test": "CONF=dev DEBUG=rest_client:* mocha -R spec -t 100000"
   },
   "repository": {
     "type": "git",
