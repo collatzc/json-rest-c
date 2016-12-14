@@ -1,4 +1,4 @@
-# json-rest-c Restful Client for JSON
+# `json-rest-c` Restful Client for JSON
 
 ## Quick start
 
@@ -7,13 +7,15 @@ var config = ('../config/config_'+process.env.NODE_ENV+'.js');
 /*
 config = {
 	restfulAPI: {
+		resJSON: true,							// optional
 		protocol: 'http:'
 		hostname: 'api.domain.com',
-		port: '3000',
-		headers: {
+		port: 3000,
+		timeout: 10000,							// opitonal, a number specifying the socket timeout in milliseconds.
+		headers: {									// optional
 			'x-auth-method': 'secret'
 		},
-		agent: {
+		agent: {										// optional
 			keepAlive: true
 		}
 	}
@@ -30,3 +32,6 @@ client.get('url/to/get', (resp, respStatusCode, respHeaders) => {
 ```
 $ npm install json-rest-c --save
 ```
+
+# Features
+
