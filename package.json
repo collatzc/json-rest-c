@@ -1,6 +1,6 @@
 {
   "name": "json-rest-c",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A self-use RESTful client only accept json.",
   "main": "./lib/json-rest-c",
   "scripts": {
